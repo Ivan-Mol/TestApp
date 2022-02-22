@@ -8,6 +8,7 @@ public class MainApp {
         Dog dog3 = new Dog("Собака3",5,"Россия","Синий");
         Zoo zoo = new Zoo();
         zoo.addAnimals(duck1,duck2,duck3,dog1,dog2,dog3);
+        System.out.println();
 
     }
 }
